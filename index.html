@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OHANA</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img src=" " alt="">OHANA</h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" alt="">
+                            <div id="carrito">
+                                <p class="vacio">carrito vacio</p>
+                                <table class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Platillos</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo1.jpg" width="100">
+                                            </td>
+                                            <td>Macerado de damasco</td>
+                                            <td>S/25</td>
+                                            <td><a href="#" class="borrar-platillo" >X</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo3.jpg" width="100">
+                                            </td>
+                                            <td>Vino</td>
+                                            <td>S/15</td>
+                                            <td><a href="#" class="borrar-platillo" >X</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="button u-full-width">vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container"> 
+            <div class="row">  
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>PACK OHANA</h2>
+                        <p>¡Apoyamos tu diversion, cuidamos tu salud!</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono">
+                    <p>Nos diseñamos<br>
+                    Exclusivamente para ti</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>HURTADO CTM<br>
+                    TE LA COMES</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Holiii<br>
+                    soy yo de nuevo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="lista-platillos" class="container">
+        <h1 class="encabezado">Pedidos en Linea</h1>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Mega pack</h4>
+                        <p>4 vinos de 1 litro, 4 macerados de damasco de 580 ml y 4 aceites de oliva de 1 litro - premio sorpresa</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">S/ 199.99 <span class="u-pull-right">S/ 189.99</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Pack</h4>
+                        <p>1 vino de 1 litro, 1 macerados de damasco de 580 ml y 1 aceites de oliva de 1 litro</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">S/ 49.99 <span class="u-pull-right">S/ 45.99</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Aceite de oliva</h4>
+                        <p>1 vino de 750 ml, 1 macerados de damasco de 270 ml y 1 aceites de oliva de 1/2 litro</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">S/ 50 <span class="u-pull-right">S/ 35</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </div>
+
+
+    <footer class="footer"> 
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="#"><h4>Pedidos a domicilio</h4></a>                        
+                        <a class="enlace" href="#"><h4>Pedidos en línea</h4></a>
+                        <a class="enlace" href="#"><h4>Pedidos por telefono</h4></a>                       
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav class="menu">                        
+                        <a class="enlace" href="#"><h4>Ubicacion: </h4>Av. 200 Millas S/N Tacna - Perú</a>
+                        <a class="enlace" href="#"><h4>Telefono:</h4>052642470</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <footer class="footer"> 
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                        <img src="img/visa.png">
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav class="menu">
+                        <img src="img/masterdcard.png">
+                    </nav>                    
+                </div>
+                <div class="four columns">
+                    <nav class="menu">
+                        <img src="img/yape-logo.png">
+                    </nav>                    
+                </div>
+                <div class="four columns">
+                    <nav class="menu">
+                        <img src="img/tunki-logo.png">
+                    </nav>                    
+                </div>
+                <div class="four columns">
+                    <nav class="menu">
+                        <img src="img/plin-logo.png">
+                    </nav>                    
+                </div>             
+            </div>
+        </div>
+    </footer>                                          
+</body>
+</html>
